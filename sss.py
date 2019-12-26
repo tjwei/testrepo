@@ -1,4 +1,3 @@
-optimizer = tf.keras.optimizers.Adam()
 loss_object = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
 
 def train_step(images, labels):
@@ -12,3 +11,9 @@ def train_step(images, labels):
 
   grads = tape.gradient(loss_value, mnist_model.trainable_variables)
   optimizer.apply_gradients(zip(grads, mnist_model.trainable_variables))
+
+
+
+fsajdfljdsfjsadl
+
+jsdlfjdasjkafds
